@@ -103,6 +103,8 @@ table {
 img {
   max-width: 100%;
   height: auto;
+}
+pic {
   border-radius: 8px;
 }
 code {
