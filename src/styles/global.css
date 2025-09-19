@@ -103,9 +103,11 @@ table {
 img {
   max-width: 100%;
   height: auto;
-}
-pic {
   border-radius: 8px;
+}
+.propic 
+{
+  border-radius: 999px;
 }
 code {
   padding: 2px 5px;
