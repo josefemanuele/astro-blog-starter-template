@@ -51,11 +51,17 @@ import { SITE_TITLE } from '../consts';
 		border-bottom-color: var(--accent);
 	}
 	.social-links {
-		display: block;
-  		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+		gap: 1em;
+		margin-top: 1em;
 	}
 	.social-links a {
-		display: flex;
+		text-decoration: none;
+		color: rgb(var(--gray));
+	}
+	.social-links a:hover {
+		color: rgb(var(--gray-dark));
 	}
 	@media (max-width: 720px) {
 		.social-links {
