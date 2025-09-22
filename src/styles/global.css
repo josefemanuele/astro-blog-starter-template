@@ -105,10 +105,6 @@ img {
   height: auto;
   border-radius: 8px;
 }
-.propic 
-{
-  border-radius: 999px;
-}
 code {
   padding: 2px 5px;
   background-color: rgb(var(--gray-light));
@@ -156,4 +152,11 @@ hr {
   clip-path: inset(50%);
   /* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
   white-space: nowrap;
+}
+
+.propic {
+  display: block;
+  margin: 0 auto;
+  border-radius: 999px;
+  box-shadow: var(--box-shadow);
 }
